@@ -1,0 +1,6 @@
+.profile__picture {
+    height: 127.5px;
+    margin: 0 20.625px 0 0 ;
+    background-size: cover;
+    border-radius: 50%;
+}

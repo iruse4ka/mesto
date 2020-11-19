@@ -1,0 +1,6 @@
+.profile__description {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: normal;
+}

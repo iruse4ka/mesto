@@ -1,0 +1,12 @@
+.button__add {
+    width: 150px;
+    margin: 0 0 0 244px;
+
+  }
+@media screen and (max-width: 767px) {
+    .button__add {
+        width: 100%;
+        margin: 0;
+        background-size: 100%;
+    }
+}
