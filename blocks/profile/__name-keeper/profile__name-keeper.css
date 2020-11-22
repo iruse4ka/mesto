@@ -1,0 +1,10 @@
+.profile__name-keeper {
+    display: flex;
+    margin: 0 auto 16px 0;
+    width: 100%;
+}
+@media screen and (max-width: 767px) {
+    .profile__name-keeper {
+        margin: 0 auto 14px 0;
+    }
+}

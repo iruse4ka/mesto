@@ -1,0 +1,14 @@
+.popup__input {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.21;
+    color: rgb(0, 0, 0);
+    width: 83%;
+    align-self: center;
+    margin: 30px auto 13px;
+    padding: 0;
+    border-width: 0;
+    outline:none
+
+}

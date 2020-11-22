@@ -1,0 +1,6 @@
+.place__description {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+
+}
