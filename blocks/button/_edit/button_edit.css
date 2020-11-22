@@ -1,12 +1,16 @@
 .button_edit {
     height: 24px;
     cursor: pointer;
-    align-self: flex-end;
+    align-self: center;
+    background-image: url(../../../images/edit.svg);
+    width: 24px;
+    background-size: cover;
 }
 
 @media screen and (max-width: 767px) {
     .button_edit {
         width: 18px;
         height: 18px;
+
     }
 }

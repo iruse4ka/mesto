@@ -1,0 +1,7 @@
+.button_like_chosen {
+    background-image: url(../../../../images/likeChosen.svg);
+}
+
+.button_like_chosen:hover {
+    opacity: 1;
+}

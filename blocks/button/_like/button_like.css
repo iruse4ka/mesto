@@ -1,5 +1,12 @@
 .button_like {
-    height: 18.13px;
-    margin: auto 22px auto 0;
+    height: 19px;
+    width: 19px;
+    margin: auto 0;
+    background-image: url(../../../images/like.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
+.button_like:hover {
+    opacity: .5;
 }
