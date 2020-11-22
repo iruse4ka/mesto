@@ -5,17 +5,18 @@ const popup = document.querySelector('.popup');
 edit.addEventListener('click', openPopup);
 close.addEventListener('click', openPopup);
 
+
 function openPopup() {
     popup.classList.toggle ('popup_opened');
 }
 // Находим форму в DOM
-let formElement = document.querySelector('.popup__input');
+let formElement = document.querySelector('.popup__container');
 
     function formSubmitHandler (evt) {
-        evt.preventDefault(); //
+        evt.preventDefault();
 
         let nameInput = document.querySelector('.popup__input_type_name');
-            let jobInput = document.querySelector('.popup__input_type_role');
+        let jobInput = document.querySelector('.popup__input_type_role');
 
         nameInput.getAttribute('value');
         jobInput.getAttribute('value');
@@ -26,11 +27,11 @@ let formElement = document.querySelector('.popup__input');
         profileName.textContent = nameInput.value;
         profileRole.textContent = jobInput.value;
 
+        openPopup();
     }
 
 formElement.addEventListener('submit', formSubmitHandler);
 
-    let saveButton = document.querySelector('.button_save');
 
-saveButton.addEventListener('click', formSubmitHandler);
-saveButton.addEventListener('click', openPopup);
+
+

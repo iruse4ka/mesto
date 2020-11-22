@@ -10,11 +10,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="668f1e8a-2221-4526-9939-7ad28fe840e5" name="Default Changelist" comment="Finish page">
+    <list default="true" id="668f1e8a-2221-4526-9939-7ad28fe840e5" name="Default Changelist" comment="done popup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/button/_add/button_add.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_add/button_add.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/place/__name/place__name.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/place/__name/place__name.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/add.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/add.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/_edit/button_edit.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_edit/button_edit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/_save/button_save.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_save/button_save.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/elements/elements.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/elements/elements.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/__copyright/footer__copyright.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer/__copyright/footer__copyright.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/__border/header__border.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/__border/header__border.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/__logo/header__logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/__logo/header__logo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/page/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/page/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profile/__name-keeper/profile__name-keeper.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profile/__name-keeper/profile__name-keeper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profile/__name/profile__name.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profile/__name/profile__name.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profile/__picture/profile__picture.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profile/__picture/profile__picture.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profile/__role/profile__role.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profile/__role/profile__role.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profile/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profile/profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +42,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1kQROydwyFwkWr09LXSNYbgrYLY" />
   <component name="ProjectLevelVcsManager">
@@ -82,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605770270931</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="done popup">
+      <created>1605885467968</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605885467969</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,9 +124,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finish page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish page" />
+    <MESSAGE value="done popup" />
+    <option name="LAST_COMMIT_MESSAGE" value="done popup" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="389" y="168" key="#Notifications" timestamp="1605885492375">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="389" y="168" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1605885492375" />
     <state x="379" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605728256586">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -113,10 +140,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="118" y="54" width="1135" height="579" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1605817274368" />
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605884857155">
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605885475927">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1605884857154" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1605885475927" />
     <state x="419" y="57" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605817255602">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

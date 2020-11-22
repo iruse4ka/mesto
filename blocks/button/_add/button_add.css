@@ -1,12 +1,13 @@
 .button_add {
-    width: 150px;
-    margin: 0 0 0 244px;
-    border: 2px solid black;
+    min-width: 150px;
+    height: 50px;
+    margin: 0 0 0 15px;
+    border: 2px solid #FFFFFF;
 
   }
 @media screen and (max-width: 767px) {
     .button_add {
-        width: 83%;
+        width: 88.125%;
         margin: 0;
     }
 }

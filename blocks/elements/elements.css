@@ -4,3 +4,9 @@
     column-gap: 17px;
     row-gap: 20px;
 }
+@media screen and (max-width: 767px) {
+    .elements {
+        width: 88.125%;
+        margin: 0 auto;
+    }
+}
