@@ -15,3 +15,10 @@
 .button_save:hover {
     opacity: .8;
 }
+
+@media screen and (max-width: 767px) {
+    .popup__header {
+        font-size: 14px;
+
+    }
+}

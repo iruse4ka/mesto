@@ -3,4 +3,12 @@
     flex-direction: column;
     font-style: normal;
     font-weight: normal;
+    margin-right: auto;
+    max-width: calc(100% - 312px);
+}
+@media screen and (max-width: 767px) {
+    .profile__description {
+        margin: 0;
+        max-width: 90%;
+    }
 }

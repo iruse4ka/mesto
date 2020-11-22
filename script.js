@@ -32,6 +32,11 @@ let formElement = document.querySelector('.popup__container');
 
 formElement.addEventListener('submit', formSubmitHandler);
 
+    let like = document.querySelectorAll('.button_like');
+
+like.addEventListener('click', likeImg);
 
 
-
+function likeImg () {
+    like.classList.toggle ('button_like_chosen');
+}

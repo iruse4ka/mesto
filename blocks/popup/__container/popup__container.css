@@ -13,3 +13,16 @@
      margin: auto;
      border-radius: 10px;
  }
+ @media screen and (max-width: 767px) {
+      .popup__container {
+           width: 88%;
+           left: 6%;
+      }
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
+      .popup__container {
+           left: 23%;
+           top: 20%;
+      }
+ }

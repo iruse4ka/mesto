@@ -6,3 +6,9 @@
     color: rgb(0, 0, 0);
     margin: 34px auto 24px;
 }
+@media screen and (max-width: 767px) {
+    .popup__header {
+        font-size: 18px;
+        line-height: 1.22;
+    }
+}

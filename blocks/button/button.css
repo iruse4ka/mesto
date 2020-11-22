@@ -4,6 +4,7 @@
     border: 0;
     padding: 0;
     transition: opacity linear 0.5s;
+    outline:none;
 }
 
 .button:hover {
