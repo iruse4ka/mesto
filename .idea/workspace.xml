@@ -10,10 +10,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="668f1e8a-2221-4526-9939-7ad28fe840e5" name="Default Changelist" comment="change place pictures">
-      <change beforePath="$PROJECT_DIR$/images/dombai.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/elbrus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/karachaevsk.jpg" beforeDir="false" />
+    <list default="true" id="668f1e8a-2221-4526-9939-7ad28fe840e5" name="Default Changelist" comment="fix pics width">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/_add/button_add.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profile/__add/profile__add.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/_close/button_close.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__close/popup__close.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/_edit/button_edit.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profile/__edit/profile__edit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/_like/button_like.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/place/__like/place__like.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/_save/button_save.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__save/popup__save.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/__copyright/footer__copyright.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer/__copyright/footer__copyright.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/__border/header__border.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__border/popup__border.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__container/popup__container.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__container/popup__container.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__label/popup__label.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/fonts/Inter-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/fonts/Inter-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/fonts/inter.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/fonts/inter.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +68,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\brigh\dev\mesto\blocks\popup" />
+      <recent name="C:\Users\brigh\dev\mesto\blocks\place" />
+      <recent name="C:\Users\brigh\dev\mesto\blocks\profile" />
+      <recent name="C:\Users\brigh\dev\mesto\JS" />
       <recent name="C:\Users\brigh\dev\mesto\blocks" />
-      <recent name="C:\Users\brigh\dev\mesto\blocks\button" />
-      <recent name="C:\Users\brigh\dev\mesto\vendor" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -138,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606136293883</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix pics width">
+      <created>1606136881687</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606136881687</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,9 +188,14 @@
     <MESSAGE value="do readme file" />
     <MESSAGE value="do tests" />
     <MESSAGE value="change place pictures" />
-    <option name="LAST_COMMIT_MESSAGE" value="change place pictures" />
+    <MESSAGE value="fix pics width" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix pics width" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="267" y="19" key="#Inspections" timestamp="1606143681332">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1606143681332" />
     <state x="389" y="168" key="#Notifications" timestamp="1605885492375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -175,18 +204,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="379" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1605728256586" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606141990323">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1606141990323" />
     <state x="118" y="54" width="1135" height="579" key="MergeDialog" timestamp="1605817274368">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="118" y="54" width="1135" height="579" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1605817274368" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1606136307519">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1606136887601">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606136307519" />
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606136263177">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606136887601" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606136855744">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1606136263177" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1606136855744" />
     <state x="419" y="57" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605817255602">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

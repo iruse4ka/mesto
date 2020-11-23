@@ -1,4 +1,4 @@
-.button_like {
+.place__like {
     height: 19px;
     width: 22px;
     margin: auto 0;
@@ -8,12 +8,12 @@
 }
 
 
-.button_like:focus {
+.place__like:focus {
     background-image: url(../../../images/likeChosen.svg);
 
     opacity: 1;
 }
-.button_like:focus:hover {
+.place__like:focus:hover {
     opacity: 1;
 }
 

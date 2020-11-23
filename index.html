@@ -13,7 +13,6 @@
 <body class="page">
 <header class="header">
     <img class="header__logo" src="images/logo.svg" alt="Логотип Проекта Место" />
-    <hr class="header__border" />
 </header>
 
 <main class="content">
@@ -21,12 +20,12 @@
         <img class="profile__picture" src="images/kusto.jpg" alt="Жак-Ив Кусто" />
         <div class="profile__description">
             <div class="profile__name-keeper">
-                <h2 class="profile__name">Жак-Ив Кусто</h2>
-                <button type="button" class="button button_edit"></button>
+                <h1 class="profile__name">Жак-Ив Кусто</h1>
+                <button type="button" class="profile__edit button"></button>
             </div>
             <p class="profile__role">Исследователь океана</p>
         </div>
-        <button type="button" class="button button_add"><img src="images/add.svg" alt="Добавить" /></button>
+        <button type="button" class="profile__add button"><img src="images/add.svg" alt="Добавить" /></button>
     </section>
 
     <section class="elements">
@@ -34,42 +33,42 @@
             <img class="place__picture" src="images/belize.jpg" alt="Рифы в Белиз" />
             <div class="place__description">
                 <h2 class="place__name">Белиз</h2>
-                <button type="button" class="button button_like"></button>
+                <button type="button" class="place__like button"></button>
             </div>
         </article>
         <article class="place">
             <img class="place__picture" src="images/canada.jpg" alt="Касатка в Канаде" />
             <div class="place__description">
                 <h2 class="place__name">Канада</h2>
-                <button type="button" class="button button_like"></button>
+                <button type="button" class="place__like button"></button>
             </div>
         </article>
         <article class="place">
             <img class="place__picture" src="images/malaysia.jpg" alt="Остров в Малайзии" />
             <div class="place__description">
                 <h2 class="place__name">Малайзия</h2>
-                <button type="button" class="button button_like"></button>
+                <button type="button" class="place__like button"></button>
             </div>
         </article>
         <article class="place">
             <img class="place__picture" src="images/newZealand.jpg" alt="Скалы в Новой Зеландии" />
             <div class="place__description">
                 <h2 class="place__name">Новая Зеландия</h2>
-                <button type="button" class="button button_like"></button>
+                <button type="button" class="place__like button"></button>
             </div>
         </article>
         <article class="place">
             <img class="place__picture" src="images/southAfrica.jpg" alt="Акулы в Южной Африке" />
             <div class="place__description">
                 <h2 class="place__name">Южная Африка</h2>
-                <button type="button" class="button button_like"></button>
+                <button type="button" class="place__like button"></button>
             </div>
         </article>
         <article class="place">
             <img class="place__picture" src="images/sudan.jpg" alt="Рифы в Судане" />
             <div class="place__description">
                 <h2 class="place__name">Судан</h2>
-                <button type="button" class="button button_like"></button>
+                <button type="button" class="place__like button"></button>
             </div>
         </article>
     </section>
@@ -80,16 +79,14 @@
 </footer>
 
 <div class="popup">
-    <form class="popup__container">
-        <button type="button" class="button button_close"></button>
+    <form name="profile-input" class="popup__container">
+        <button type="button" class="popup__close button"></button>
         <h2 class="popup__header">Редактировать профиль</h2>
-        <label class="popup__label"><input type="text" class="popup__input popup__input_type_name" placeholder="Жак-Ив Кусто" /></label>
-        <hr class="popup__border" />
-        <label class="popup__label"><input type="text" class="popup__input popup__input_type_role" placeholder="Исследователь океана" /></label>
-        <hr class="popup__border" />
-        <button type="submit" class="button button_save">Сохранить</button>
+        <input type="text" class="popup__input popup__input_type_name" placeholder="Жак-Ив Кусто" />
+        <input type="text" class="popup__input popup__input_type_role" placeholder="Исследователь океана" />
+        <button type="submit" class="popup__save button">Сохранить</button>
     </form>
 </div>
-<script src="script.js"></script>
+<script src="JS/script.js"></script>
 </body>
 </html>

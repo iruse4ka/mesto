@@ -1,4 +1,4 @@
-.button_edit {
+.profile__edit {
     height: 24px;
     cursor: pointer;
     align-self: center;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .button_edit {
+    .profile_edit {
         width: 18px;
         height: 18px;
 
