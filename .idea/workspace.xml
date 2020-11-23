@@ -11,13 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="668f1e8a-2221-4526-9939-7ad28fe840e5" name="Default Changelist" comment="do like buttons">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_11_2020_23_20__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_11_2020_23_20__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_like/_chosen/button_like_chosen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_like/button_like.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_like/button_like.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/place/__name/place__name.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/place/__name/place__name.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606079494212</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="do like buttons">
+      <created>1606127224353</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606127224353</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,10 +146,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="118" y="54" width="1135" height="579" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1605817274368" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1606079504618">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1606127233332">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606079504618" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606127233332" />
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606127209174">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
