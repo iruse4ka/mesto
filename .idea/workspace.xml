@@ -10,8 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="668f1e8a-2221-4526-9939-7ad28fe840e5" name="Default Changelist" comment="do readme file">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="668f1e8a-2221-4526-9939-7ad28fe840e5" name="Default Changelist" comment="do tests">
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606133354678</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="do tests">
+      <created>1606133654507</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606133654507</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +144,8 @@
     <MESSAGE value="done popup" />
     <MESSAGE value="do like buttons" />
     <MESSAGE value="do readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="do readme file" />
+    <MESSAGE value="do tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="do tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="389" y="168" key="#Notifications" timestamp="1605885492375">
@@ -152,14 +160,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="118" y="54" width="1135" height="579" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1605817274368" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1606133361815">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1606133659369">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606133361815" />
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606133330860">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606133659369" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606134005108">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1606133330860" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1606134005108" />
     <state x="419" y="57" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605817255602">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
