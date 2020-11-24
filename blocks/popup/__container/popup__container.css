@@ -10,17 +10,13 @@
      border-radius: 10px;
      left: 50%;
      top: 50%;
-     margin-left: -215px;
-     margin-top: -173px;
+      transform: translate( -50%, -50% );
  }
  @media screen and (max-width: 767px) {
       .popup__container {
            width: 88%;
            left: 50%;
            top: 50%;
-           margin-left: -142px;
-           margin-top: -169px;
-
       }
  }
 
