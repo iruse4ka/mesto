@@ -9,8 +9,8 @@ let profileRole =document.querySelector('.profile__role');
 
 function openPopup() {
     popup.classList.add ('popup_opened');
-    nameInput.getAttribute('value');
-    jobInput.getAttribute('value');
+    nameInput.value = profileName.textContent;
+    jobInput.value = profileRole.textContent;
 
 }
 function closePopup() {
