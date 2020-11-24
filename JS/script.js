@@ -8,10 +8,9 @@ let profileName =document.querySelector('.profile__name');
 let profileRole =document.querySelector('.profile__role');
 
 function openPopup() {
-    popup.classList.add ('popup_opened');
     nameInput.value = profileName.textContent;
     jobInput.value = profileRole.textContent;
-
+    popup.classList.add ('popup_opened');
 }
 function closePopup() {
     popup.classList.remove('popup_opened');
@@ -19,10 +18,8 @@ function closePopup() {
 
     function formSubmitHandler (evt) {
         evt.preventDefault();
-
         profileName.textContent = nameInput.value;
         profileRole.textContent = jobInput.value;
-
         closePopup();
     }
 
