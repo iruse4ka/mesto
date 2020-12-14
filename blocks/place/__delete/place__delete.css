@@ -2,15 +2,15 @@
     position: absolute;
     top: 18px;
     right: 15px;
-    width: 19px;
-    height: 18px;
+    width: 18px;
+    height: 19px;
     background: url(../../../images/trash.svg) no-repeat center center;
-    background-size: 19px 18px;
+    background-size: 18px 19px;
     border: 0;
     padding: 0;
     cursor: pointer;
     transition: opacity ease .5s;
-    z-index: 2;
+    z-index: 1;
 }
 
 .place__delete:hover {

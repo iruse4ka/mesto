@@ -3,5 +3,6 @@
     display: flex;
     flex-flow: column;
     min-width: 282px;
+
     position: relative;
 }
