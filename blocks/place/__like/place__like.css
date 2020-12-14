@@ -8,14 +8,7 @@
 }
 
 
-.place__like:focus {
-    background-image: url(../../../images/likeChosen.svg);
 
-    opacity: 1;
-}
-.place__like:focus:hover {
-    opacity: 1;
-}
 
 
 

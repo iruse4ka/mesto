@@ -10,7 +10,38 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="668f1e8a-2221-4526-9939-7ad28fe840e5" name="Default Changelist" comment="fix bags after 2nd review" />
+    <list default="true" id="668f1e8a-2221-4526-9939-7ad28fe840e5" name="Default Changelist" comment="fix bags after 2nd review">
+      <change afterPath="$PROJECT_DIR$/blocks/place/__delete/place__delete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/place/__item/place__item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/place/__like/place__like_active.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/place/__template/place__template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/__close/popup__close_add-place.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/__close/popup__close_edit-profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/__close/popup__close_picture.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/__container/popup__container_picture.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/__container/popup__container_place.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/__container/popup__container_profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_html.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_place-name.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/__picture/popup__picture-name.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/__picture/popup__picture.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/popup_add-place.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/popup_edit-profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/popup_picture.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/trash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_11_2020_23_20_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_11_2020_23_20__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_11_2020_16_07_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_11_2020_16_07__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/elements/elements.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/elements/elements.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/place/__like/place__like.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/place/__like/place__like.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/place/place.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/place/place.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__container/popup__container.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__container/popup__container.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,13 +67,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mesto(1)" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -64,6 +96,9 @@
       <updated>1605630800687</updated>
       <workItem from="1605630801823" duration="10450000" />
       <workItem from="1605727058706" duration="11328000" />
+      <workItem from="1607015772135" duration="562000" />
+      <workItem from="1607539531865" duration="11736000" />
+      <workItem from="1607671423715" duration="25296000" />
     </task>
     <task id="LOCAL-00001" summary="Finish page">
       <created>1605770258143</created>
@@ -170,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606235656730</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fix bags after 2nd review">
+      <created>1606235844653</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606235844653</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,31 +252,48 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="389" y="168" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1605885492375" />
-    <state x="379" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605728256586">
+    <state x="379" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607880844242">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="379" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1605728256586" />
+    <state x="379" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1607880844242" />
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606141990323">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1606141990323" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1607878784534">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607878784534" />
+    <state x="421" y="1176" key="FileChooserDialogImpl/0.0.1920.1040/0.1080.1280.680@0.1080.1280.680" timestamp="1607016330925" />
     <state x="118" y="54" width="1135" height="579" key="MergeDialog" timestamp="1605817274368">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="118" y="54" width="1135" height="579" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1605817274368" />
-    <state x="350" y="113" key="Vcs.Push.Dialog.v2" timestamp="1606235665437">
+    <state x="350" y="113" key="Vcs.Push.Dialog.v2" timestamp="1606235849456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606205789629" />
-    <state x="350" y="113" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1606235665437" />
-    <state x="687" y="390" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606211263518">
+    <state x="350" y="113" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1606235849456" />
+    <state x="687" y="390" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606235834706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1606205757116" />
-    <state x="687" y="390" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1606211263518" />
+    <state x="687" y="390" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1606235834706" />
     <state x="419" y="57" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605817255602">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="419" y="57" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1605817255602" />
+    <state x="282" y="67" width="700" height="530" key="recent.locations.popup" timestamp="1607545381585">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="282" y="67" width="700" height="530" key="recent.locations.popup/0.0.1280.680@0.0.1280.680" timestamp="1607545381585" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1607956262799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/0.1080.1280.680@0.0.1920.1040" timestamp="1607956262799" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1607545474486">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1607545474486" />
   </component>
 </project>

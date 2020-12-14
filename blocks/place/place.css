@@ -1,6 +1,12 @@
 .place {
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+    column-gap: 17px;
+    row-gap: 20px;
+}
+@media screen and (max-width: 767px) {
+    .place {
+        width: 88.125%;
+        margin: 0 auto;
+    }
 }
