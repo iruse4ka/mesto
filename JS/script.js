@@ -87,10 +87,10 @@ function createPlace(name, link) {
     newPlacePic.alt = name;
     newPlacePic.title = name;
 
-    newPlacePic.addEventListener('click', () => {
-        picturePopupName.textContent = name;
-        picturePopupImg.src = link;
-        picturePopupImg.alt = name;
+    newPlacePic.addEventListener('click', (evt) => {
+        picturePopupName.textContent = evt.target.title;
+        picturePopupImg.src = evt.target.src;
+        picturePopupImg.alt = evt.target.alt;
         openPopup(picturePopup)
     });
 
