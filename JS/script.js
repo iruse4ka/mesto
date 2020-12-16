@@ -17,7 +17,7 @@ const closeProfileButton = document.querySelector('.popup__close_edit-profile');
 const popupProfile = document.querySelector('.popup_edit-profile');
 const formElementProfile = document.querySelector('.popup__container_profile');
 const profileNameInput = document.querySelector('.popup__input_type_name');
-const RoleInput = document.querySelector('.popup__input_type_role');
+const roleInput = document.querySelector('.popup__input_type_role');
 const profileName =document.querySelector('.profile__name');
 const profileRole =document.querySelector('.profile__role');
 
@@ -25,10 +25,10 @@ const addPlaceButton = document.querySelector('.profile__add');
 const popupAddPlace = document.querySelector('.popup_add-place');
 const formElementPlace = document.querySelector('.popup__container_place');
 const closePlaceButton = document.querySelector('.popup__close_add-place');
-const placeTemplate = document.querySelector('.place__template').content;
+const placeTemplate = document.querySelector('.place-template').content;
 const placeItem = document.querySelector('.place');
 const placeNameInput = document.querySelector('.popup__input_type_place-name');
-const placePicInput = document.querySelector('.popup__input_type_html');
+const placePicInput = document.querySelector('.popup__input_type_link');
 
 const picturePopup = document.querySelector('.popup_picture');
 const closePictureButton = document.querySelector('.popup__close_picture');
@@ -47,14 +47,14 @@ function closePopup(popup) {
 }
 function openPopupProfile() {
     profileNameInput.value = profileName.textContent;
-    RoleInput.value = profileRole.textContent;
+    roleInput.value = profileRole.textContent;
     openPopup(popupProfile);
 }
 
-function formSubmitHandler(evt) {
+function submitProfileForm(evt) {
     evt.preventDefault();
     profileName.textContent = profileNameInput.value;
-    profileRole.textContent = RoleInput.value;
+    profileRole.textContent = roleInput.value;
     closePopup(popupProfile);
 }
 
@@ -63,7 +63,7 @@ editButton.addEventListener('click',openPopupProfile);
 closeProfileButton.addEventListener('click', () =>  {
     closePopup(popupProfile);
 });
-formElementProfile.addEventListener('submit',formSubmitHandler);
+formElementProfile.addEventListener('submit', submitProfileForm);
 
 
 /*Карточки мест*/
@@ -75,7 +75,6 @@ function toggleLike(evt) {
 function removePlace(evt) {
     evt.target.closest('.place__item').remove();
 }
-
 function createPlace(name, link) {
     const newPlace = placeTemplate.cloneNode(true);
     const newPlaceName = newPlace.querySelector('.place__name');
@@ -88,7 +87,12 @@ function createPlace(name, link) {
     newPlacePic.alt = name;
     newPlacePic.title = name;
 
-    newPlacePic.addEventListener('click', openPicturePopup);
+    newPlacePic.addEventListener('click', () => {
+        picturePopupName.textContent = name;
+        picturePopupImg.src = link;
+        picturePopupImg.alt = name;
+        openPopup(picturePopup)
+    });
 
     newPlace.querySelector('.place__like').addEventListener('click',toggleLike);
     newPlace.querySelector('.place__delete').addEventListener('click',removePlace)
@@ -107,15 +111,6 @@ function submitPlaceForm(evt) {
     closePopup(popupAddPlace);
 }
 
-function openPicturePopup(evt) {
-    const name = evt.target.nextElementSibling.children[0].textContent;
-
-    picturePopupImg.src = evt.target.src;
-    picturePopupImg.alt = name;
-    picturePopupName.textContent = name;
-
-    openPopup(picturePopup);
-}
 
 document.addEventListener('DOMContentLoaded',() => {
     initialCards.forEach((item) => {

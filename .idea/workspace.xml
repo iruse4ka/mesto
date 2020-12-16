@@ -10,9 +10,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="668f1e8a-2221-4526-9939-7ad28fe840e5" name="Default Changelist" comment="finished">
+    <list default="true" id="668f1e8a-2221-4526-9939-7ad28fe840e5" name="Default Changelist" comment="fixed all bags after 1st review">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__container/popup__container_picture.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__container/popup__container_picture.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/place/__like/place__like.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/place/__like/place__like.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/place/__like/place__like_active.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/place/__like/_active/place__like_active.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/place/__template/place__template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__container/popup__container_picture.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__container/_picture/popup__container_picture.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__container/popup__container_place.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__container/popup__container_profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_html.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_name.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_place-name.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_role.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__picture/popup__picture-name.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__picture-name/popup__picture-name.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/popup_add-place.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/popup_edit-profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/popup_picture.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/_picture/popup_picture.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +68,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\brigh\dev\mesto\blocks\popup" />
-      <recent name="C:\Users\brigh\dev\mesto\blocks\place" />
-      <recent name="C:\Users\brigh\dev\mesto\blocks\profile" />
-      <recent name="C:\Users\brigh\dev\mesto\JS" />
-      <recent name="C:\Users\brigh\dev\mesto\blocks" />
+      <recent name="C:\Users\brigh\dev\mesto\blocks\popup\_opened\_picture" />
+      <recent name="C:\Users\brigh\dev\mesto\blocks\popup\__picture-name" />
+      <recent name="C:\Users\brigh\dev\mesto\blocks\popup\__container\_profile" />
+      <recent name="C:\Users\brigh\dev\mesto\blocks\popup\__container\_place" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,7 +86,7 @@
       <workItem from="1605727058706" duration="11328000" />
       <workItem from="1607015772135" duration="562000" />
       <workItem from="1607539531865" duration="11736000" />
-      <workItem from="1607671423715" duration="33535000" />
+      <workItem from="1607671423715" duration="48012000" />
     </task>
     <task id="LOCAL-00001" summary="Finish page">
       <created>1605770258143</created>
@@ -219,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607972522004</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="finished">
+      <created>1607973428933</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607973428933</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +273,8 @@
     <MESSAGE value="fix bags after 2nd review" />
     <MESSAGE value="before final fixes" />
     <MESSAGE value="finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished" />
+    <MESSAGE value="fixed all bags after 1st review" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed all bags after 1st review" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1606143681332">
@@ -265,10 +289,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="379" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1607880844242" />
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606141990323">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608054491060">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1606141990323" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1608054491060" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1607878784534">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -278,15 +302,16 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="118" y="54" width="1135" height="579" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1605817274368" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1607972524923">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1607973432048">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607972524923" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607973432048" />
     <state x="350" y="113" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1606235849456" />
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607972514628">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="458" y="1335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608138840651">
+      <screen x="0" y="1080" width="1280" height="680" />
     </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1607972514628" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1607973422128" />
+    <state x="458" y="1335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/0.1080.1280.680@0.1080.1280.680" timestamp="1608138840651" />
     <state x="687" y="390" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1606235834706" />
     <state x="419" y="57" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605817255602">
       <screen x="0" y="0" width="1280" height="680" />

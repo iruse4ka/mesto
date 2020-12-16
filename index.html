@@ -35,22 +35,27 @@
 <footer class="footer">
     <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
 </footer>
-
+<!-- Комментарий про форму поняла, но прийдется переназначать классы, поэтому разберусь с ними позже-->
 <div class="popup popup_edit-profile">
-    <form name="profile-input" class="popup__container popup__container_profile">
+    <form class="popup__container popup__container_profile" name="profile-input" >
         <button type="button" class="popup__close popup__close_edit-profile button"></button>
+
         <h2 class="popup__header">Редактировать профиль</h2>
-        <input type="text" class="popup__input popup__input_type_name" placeholder="Жак-Ив Кусто" />
-        <input type="text" class="popup__input popup__input_type_role" placeholder="Исследователь океана" />
+
+            <input type="text" class="popup__input popup__input_type_name" placeholder="Жак-Ив Кусто" name="user-name" required/>
+            <input type="text" class="popup__input popup__input_type_role" placeholder="Исследователь океана" name="user-role" required/>
+
         <button type="submit" class="popup__save button">Сохранить</button>
-    </form>
+
+        </form>
+
 </div>
 <div class="popup popup_add-place">
-    <form name="profile-input" class="popup__container popup__container_place">
+    <form name="place-input" class="popup__container popup__container_place">
         <button type="button" class="popup__close popup__close_add-place button"></button>
         <h2 class="popup__header">Новое место</h2>
-        <input type="text" class="popup__input popup__input_type_place-name" placeholder="Название" />
-        <input type="text" class="popup__input popup__input_type_html" placeholder="Ссылка на картинку" />
+        <input type="text" class="popup__input popup__input_type_place-name" placeholder="Название" name="place-name" required/>
+        <input type="url" class="popup__input popup__input_type_link" placeholder="Ссылка на картинку" name="place-link" required/>
         <button type="submit" class="popup__save button">Создать</button>
     </form>
 </div>
@@ -61,7 +66,7 @@
         <p class="popup__picture-name"></p>
     </div>
 </div>
-<template class="place__template">
+<template class="place-template">
     <div class="place__item">
         <button type="button" class="place__delete button"></button>
         <img class="place__picture" src="#" alt="alt" />

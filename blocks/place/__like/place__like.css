@@ -7,7 +7,9 @@
     background-repeat: no-repeat;
 }
 
-
+.place__like:hover{
+    opacity: .6;
+}
 
 
 
