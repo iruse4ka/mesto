@@ -13,10 +13,10 @@
 @import url(../blocks/place/__like/place__like.css);
 @import url(../blocks/place/__like/_active/place__like_active.css);
 @import url(../blocks/popup/__close/popup__close.css);
-@import url(../blocks/popup/__close/popup__close_edit-profile.css);
-@import url(../blocks/popup/__close/popup__close_add-place.css);
-@import url(../blocks/popup/__save/popup__save.css);
-@import url(../blocks/popup/__close/popup__close_picture.css);
+
+@import url(../blocks/popup/__submit/popup__submit.css);
+@import url(../blocks/popup/__submit/_disabled/popup__submit_disabled.css);
+
 @import url(../blocks/popup/__picture/popup__picture.css);
 @import url(../blocks/popup/__picture-name/popup__picture-name.css);
 
@@ -50,6 +50,9 @@
 
 @import url(../blocks/popup/__header/popup__header.css);
 @import url(../blocks/popup/__input/popup__input.css);
+@import url(../blocks/popup/__input/_type/popup__input_type_error.css);
+@import url(../blocks/popup/__error/popup__error.css);
+@import url(../blocks/popup/__error/_visible/popup__error_visible.css);
 
 
 

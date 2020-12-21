@@ -1,4 +1,4 @@
-.popup__save {
+.popup__submit {
     text-align: center;
     width: 83%;
     height: 50px;
@@ -12,12 +12,12 @@
     margin: 48px 8% 37px 8%;
     }
 
-.popup__save:hover {
+.popup__submit:hover {
     opacity: .8;
 }
 
 @media screen and (max-width: 767px) {
-    .popup__save {
+    .popup__submit {
         font-size: 14px;
     }
 }

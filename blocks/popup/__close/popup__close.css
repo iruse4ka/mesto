@@ -6,6 +6,7 @@
     right: -50px;
     background-image: url(../../../images/close.svg);
     background-size: cover;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {

@@ -35,32 +35,36 @@
 <footer class="footer">
     <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
 </footer>
-<!-- Комментарий про форму поняла, но прийдется переназначать классы, поэтому разберусь с ними позже-->
+
 <div class="popup popup_edit-profile">
     <div class="popup__container popup__container_profile">
-        <button type="button" class="popup__close popup__close_edit-profile button"></button>
+        <button type="button" class="popup__close button"></button>
         <h2 class="popup__header">Редактировать профиль</h2>
-        <form  name="profile-input" >
-            <input type="text" class="popup__input popup__input_type_name" placeholder="Жак-Ив Кусто" name="user-name" required/>
-            <input type="text" class="popup__input popup__input_type_role" placeholder="Исследователь океана" name="user-role" required/>
-            <button type="submit" class="popup__save button">Сохранить</button>
+        <form  name="profile" class=".popup__form" novalidate>
+            <input type="text" class="popup__input popup__input_type_name" placeholder="Жак-Ив Кусто" id="userName" name="userName" minlength="2" maxlength="40" required/>
+            <span class="popup__error userName-error"></span>
+            <input type="text" class="popup__input popup__input_type_role" placeholder="Исследователь океана" id="userRole" name="userRole" minlength="2" maxlength="200" required/>
+            <span class="popup__error userRole-error"></span>
+            <button type="submit" class="popup__submit popup__submit_profile button">Сохранить</button>
         </form>
     </div>
 </div>
 <div class="popup popup_add-place">
     <div class="popup__container popup__container_place">
-        <button type="button" class="popup__close popup__close_add-place button"></button>
+        <button type="button" class="popup__close button"></button>
         <h2 class="popup__header">Новое место</h2>
-        <form name="place-input" >
-            <input type="text" class="popup__input popup__input_type_place-name" placeholder="Название" name="place-name" required/>
-            <input type="url" class="popup__input popup__input_type_link" placeholder="Ссылка на картинку" name="place-link" required/>
-            <button type="submit" class="popup__save button">Создать</button>
+        <form name="place" class=".popup__form" novalidate>
+            <input type="text" class="popup__input popup__input_type_place-name" placeholder="Название" id="placeName" name="placeName" minlength="2" maxlength="30" required/>
+            <span class="popup__error placeName-error"></span>
+            <input type="url" class="popup__input popup__input_type_link" placeholder="Ссылка на картинку" id="placeLink" name="placeLink" minlength="4" required/>
+            <span class="popup__error placeLink-error"></span>
+            <button type="submit" class="popup__submit popup__submit_place button">Создать</button>
         </form>
     </div>
 </div>
 <div class="popup popup_picture">
     <div class="popup__container popup__container_picture">
-        <button type="button" class="popup__close popup__close_picture button"></button>
+        <button type="button" class="popup__close button"></button>
         <img src="#" alt="Картинка" class="popup__picture" />
         <p class="popup__picture-name"></p>
     </div>
@@ -76,6 +80,7 @@
     </div>
 </template>
 <script src="JS/cards.js"></script>
+<script src="JS/validate.js"></script>
 <script src="JS/script.js"></script>
 
 </body>
