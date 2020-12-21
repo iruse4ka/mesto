@@ -11,9 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="668f1e8a-2221-4526-9939-7ad28fe840e5" name="Default Changelist" comment="fixed all bags after 1st review">
+      <change afterPath="$PROJECT_DIR$/JS/cards.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__picture/popup__picture.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__picture/popup__picture.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__header/popup__header.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__header/popup__header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__save/popup__save.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__save/popup__save.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +75,7 @@
       <workItem from="1605727058706" duration="11328000" />
       <workItem from="1607015772135" duration="562000" />
       <workItem from="1607539531865" duration="11736000" />
-      <workItem from="1607671423715" duration="51432000" />
+      <workItem from="1607671423715" duration="56050000" />
     </task>
     <task id="LOCAL-00001" summary="Finish page">
       <created>1605770258143</created>
@@ -234,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608139129853</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="fixed all bags after 1st review">
+      <created>1608146309153</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1608146309153</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,16 +305,16 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="118" y="54" width="1135" height="579" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1605817274368" />
-    <state x="233" y="1154" key="Vcs.Push.Dialog.v2" timestamp="1608139133440">
-      <screen x="0" y="1080" width="1280" height="680" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1608146312671">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607973432048" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608146312671" />
     <state x="233" y="1154" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.1080.1280.680@0.1080.1280.680" timestamp="1608139133440" />
     <state x="350" y="113" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1606235849456" />
-    <state x="458" y="1335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608139123502">
-      <screen x="0" y="1080" width="1280" height="680" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608146301823">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1607973422128" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1608146301823" />
     <state x="458" y="1335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/0.1080.1280.680@0.1080.1280.680" timestamp="1608139123502" />
     <state x="687" y="390" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1606235834706" />
     <state x="419" y="57" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605817255602">

@@ -37,27 +37,26 @@
 </footer>
 <!-- Комментарий про форму поняла, но прийдется переназначать классы, поэтому разберусь с ними позже-->
 <div class="popup popup_edit-profile">
-    <form class="popup__container popup__container_profile" name="profile-input" >
+    <div class="popup__container popup__container_profile">
         <button type="button" class="popup__close popup__close_edit-profile button"></button>
-
         <h2 class="popup__header">Редактировать профиль</h2>
-
+        <form  name="profile-input" >
             <input type="text" class="popup__input popup__input_type_name" placeholder="Жак-Ив Кусто" name="user-name" required/>
             <input type="text" class="popup__input popup__input_type_role" placeholder="Исследователь океана" name="user-role" required/>
-
-        <button type="submit" class="popup__save button">Сохранить</button>
-
+            <button type="submit" class="popup__save button">Сохранить</button>
         </form>
-
+    </div>
 </div>
 <div class="popup popup_add-place">
-    <form name="place-input" class="popup__container popup__container_place">
+    <div class="popup__container popup__container_place">
         <button type="button" class="popup__close popup__close_add-place button"></button>
         <h2 class="popup__header">Новое место</h2>
-        <input type="text" class="popup__input popup__input_type_place-name" placeholder="Название" name="place-name" required/>
-        <input type="url" class="popup__input popup__input_type_link" placeholder="Ссылка на картинку" name="place-link" required/>
-        <button type="submit" class="popup__save button">Создать</button>
-    </form>
+        <form name="place-input" >
+            <input type="text" class="popup__input popup__input_type_place-name" placeholder="Название" name="place-name" required/>
+            <input type="url" class="popup__input popup__input_type_link" placeholder="Ссылка на картинку" name="place-link" required/>
+            <button type="submit" class="popup__save button">Создать</button>
+        </form>
+    </div>
 </div>
 <div class="popup popup_picture">
     <div class="popup__container popup__container_picture">
@@ -76,6 +75,8 @@
         </div>
     </div>
 </template>
+<script src="JS/cards.js"></script>
 <script src="JS/script.js"></script>
+
 </body>
 </html>
