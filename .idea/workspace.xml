@@ -10,20 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="668f1e8a-2221-4526-9939-7ad28fe840e5" name="Default Changelist" comment="fixed form placement">
-      <change afterPath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_error.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/popup/__submit/_disabled/popup__submit_disabled.css" afterDir="false" />
+    <list default="true" id="668f1e8a-2221-4526-9939-7ad28fe840e5" name="Default Changelist" comment="add validators">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/place/__description/place__description.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/place/__description/place__description.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__close/popup__close.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__close/popup__close.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__close/popup__close_add-place.css" beforeDir="false" afterPath="$PROJECT_DIR$/JS/validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__close/popup__close_edit-profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__error/_visible/popup__error_visible.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__close/popup__close_picture.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__error/popup__error.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__error/_visible/popup__error_visible.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__error/_visible/popup__error_visible.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__save/popup__save.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__submit/popup__submit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/_opened/popup_opened.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/_opened/popup_opened.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/popup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +76,8 @@
       <workItem from="1605727058706" duration="11328000" />
       <workItem from="1607015772135" duration="562000" />
       <workItem from="1607539531865" duration="11736000" />
-      <workItem from="1607671423715" duration="81405000" />
+      <workItem from="1607671423715" duration="82035000" />
+      <workItem from="1608658156456" duration="5032000" />
     </task>
     <task id="LOCAL-00001" summary="Finish page">
       <created>1605770258143</created>
@@ -258,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608549435811</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add validators">
+      <created>1608582629499</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608582629499</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +294,8 @@
     <MESSAGE value="finished" />
     <MESSAGE value="fixed all bags after 1st review" />
     <MESSAGE value="fixed form placement" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed form placement" />
+    <MESSAGE value="add validators" />
+    <option name="LAST_COMMIT_MESSAGE" value="add validators" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1606143681332">
@@ -319,16 +323,16 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="118" y="54" width="1135" height="579" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1605817274368" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1608146312671">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1608582636879">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608146312671" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608582636879" />
     <state x="233" y="1154" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.1080.1280.680@0.1080.1280.680" timestamp="1608139133440" />
     <state x="350" y="113" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1606235849456" />
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608549408978">
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608582599269">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1608549408978" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1608582599269" />
     <state x="458" y="1335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/0.1080.1280.680@0.1080.1280.680" timestamp="1608139123502" />
     <state x="687" y="390" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1606235834706" />
     <state x="419" y="57" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605817255602">

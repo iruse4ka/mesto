@@ -22,8 +22,6 @@ const placeItem = document.querySelector('.place');
 const picturePopup = document.querySelector('.popup_picture');
 
 
-
-/*Всплывающие окна*/
 function listenEscapeKey(evt) {
     if(evt.key === 'Escape')
         closePopup();
@@ -38,8 +36,6 @@ function closePopup(popup) {
     document.removeEventListener('keydown', listenEscapeKey);
     currentPopup.classList.remove('popup_opened');
 }
-
-/*Редактирование профиля*/
 
 function validateProfileForm() {
     nameInput.value = profileName.textContent;
@@ -68,13 +64,6 @@ function submitProfileForm(evt) {
     profileRole.textContent = roleInput.value;
     closePopup();
 }
-
-editButton.addEventListener('click',openPopupProfile);
-
-profileForm.addEventListener('submit', submitProfileForm);
-
-
-/*Карточки мест*/
 
 function toggleLike(evt) {
     evt.target.classList.toggle('place__like_active');
@@ -108,26 +97,17 @@ function createPlace(name, link) {
     return newPlace;
 }
 
-document.addEventListener('DOMContentLoaded',() => {
-    initialCards.forEach((item) => {
-        addPlace(placeItem,createPlace(item.name,item.link));
-    });
-});
-
 function addPlace(container, element) {
     container.prepend(element);
 }
 
 function submitPlaceForm(evt) {
+
     addPlace(placeItem,createPlace(placeNameInput.value,placePicInput.value));
     placeForm.reset();
     toggleSubmitButton(placeSubmitButton, [placeNameInput, placePicInput], 'popup__submit_disabled');
     closePopup();
 }
-addPlaceButton.addEventListener('click',() => {
-    openPopup(popupAddPlace);
-});
-placeForm.addEventListener('submit',submitPlaceForm);
 
 popups.forEach((item) => {
     item.addEventListener('click', function (evt) {
@@ -135,3 +115,15 @@ popups.forEach((item) => {
             closePopup();
     });
 });
+
+document.addEventListener('DOMContentLoaded',() => {
+    initialCards.forEach((item) => {
+        addPlace(placeItem,createPlace(item.name,item.link));
+    });
+});
+
+
+editButton.addEventListener('click',openPopupProfile);
+profileForm.addEventListener('submit', submitProfileForm);
+addPlaceButton.addEventListener('click',() => {openPopup(popupAddPlace);});
+placeForm.addEventListener('submit',submitPlaceForm);
