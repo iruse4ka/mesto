@@ -32,7 +32,7 @@ function openPopup(popup) {
     popup.classList.add('popup_opened');
 }
 function closePopup(popup) {
-    currentPopup = document.querySelector('.popup_opened');
+    const currentPopup = document.querySelector('.popup_opened');
     document.removeEventListener('keydown', listenEscapeKey);
     currentPopup.classList.remove('popup_opened');
 }
@@ -112,7 +112,7 @@ function submitPlaceForm(evt) {
 popups.forEach((item) => {
     item.addEventListener('click', function (evt) {
         if(evt.target.classList.contains('popup') || evt.target.classList.contains('popup__close'))
-            closePopup();
+            closePopup(item);
     });
 });
 

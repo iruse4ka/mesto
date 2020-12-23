@@ -10,8 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="668f1e8a-2221-4526-9939-7ad28fe840e5" name="Default Changelist" comment="fix last bugs">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="668f1e8a-2221-4526-9939-7ad28fe840e5" name="Default Changelist" comment="revise readme">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__error/popup__error.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__error/popup__error.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__header/popup__header.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__header/popup__header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +74,7 @@
       <workItem from="1607015772135" duration="562000" />
       <workItem from="1607539531865" duration="11736000" />
       <workItem from="1607671423715" duration="82035000" />
-      <workItem from="1608658156456" duration="5528000" />
+      <workItem from="1608658156456" duration="6606000" />
     </task>
     <task id="LOCAL-00001" summary="Finish page">
       <created>1605770258143</created>
@@ -261,7 +265,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608663252175</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="revise readme">
+      <created>1608663770438</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1608663770438</updated>
+    </task>
+    <task id="LOCAL-00029" summary="revise readme">
+      <created>1608663909182</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1608663909182</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +314,8 @@
     <MESSAGE value="fixed form placement" />
     <MESSAGE value="add validators" />
     <MESSAGE value="fix last bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix last bugs" />
+    <MESSAGE value="revise readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="revise readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1606143681332">
@@ -324,16 +343,16 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="118" y="54" width="1135" height="579" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1605817274368" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1608663263742">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1608663914707">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608663263742" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608663914707" />
     <state x="233" y="1154" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.1080.1280.680@0.1080.1280.680" timestamp="1608139133440" />
     <state x="350" y="113" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1606235849456" />
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608663197365">
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608663902708">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1608663197365" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1608663902708" />
     <state x="458" y="1335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/0.1080.1280.680@0.1080.1280.680" timestamp="1608139123502" />
     <state x="687" y="390" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1606235834706" />
     <state x="419" y="57" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605817255602">
