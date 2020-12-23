@@ -23,8 +23,8 @@ const picturePopup = document.querySelector('.popup_picture');
 
 
 function listenEscapeKey(evt) {
-    if(evt.key === 'Escape')
-        closePopup();
+    if(evt.key === 'Escape'){
+        closePopup()}
 }
 
 function openPopup(popup) {
