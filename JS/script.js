@@ -15,7 +15,6 @@ const placeNameInput = placeForm.elements.placeName;
 const placePicInput = placeForm.elements.placeLink;
 const picturePopupImg = document.querySelector('.popup__picture');
 const picturePopupName = document.querySelector('.popup__picture-name');
-const placeSubmitButton = document.querySelector('.popup__submit_place');
 
 const placeTemplate = document.querySelector('.place-template').content;
 const placeItem = document.querySelector('.place');
@@ -33,18 +32,18 @@ function openPopup(popup) {
     popup.classList.add('popup_opened');
 }
 function closePopup(popup) {
-
     document.removeEventListener('keydown', listenEscapeKey);
     popup.classList.remove('popup_opened');
+}
+
+function resetValidation(formSelector,inputSelector,inactiveButtonClass){
+    const inputList = Array.from(formSelector.querySelectorAll(inputSelector));
+    toggleSubmitButton(profileSubmitButton, inputList, inactiveButtonClass);
 }
 
 function validateProfileForm() {
     nameInput.value = profileName.textContent;
     roleInput.value = profileRole.textContent;
-
-
-   toggleSubmitButton(profileSubmitButton, [nameInput, roleInput], 'popup__submit_disabled');
-
     errorElements = Array.from(profileForm.querySelectorAll('.popup__error'));
     errorElements.forEach((errorItem) => {
         errorItem.classList.remove('popup__error_visible');
@@ -57,6 +56,7 @@ function validateProfileForm() {
 }
 
 function openPopupProfile() {
+    resetValidation(profileForm);
     validateProfileForm();
     openPopup(popupProfile);
 }
@@ -64,7 +64,7 @@ function openPopupProfile() {
 function submitProfileForm(evt) {
     profileName.textContent = nameInput.value;
     profileRole.textContent = roleInput.value;
-    closePopup();
+    closePopup(popupProfile);
 }
 
 function toggleLike(evt) {
@@ -104,11 +104,11 @@ function addPlace(container, element) {
 }
 
 function submitPlaceForm(evt) {
-
+    resetValidation(placeForm);
     addPlace(placeItem,createPlace(placeNameInput.value,placePicInput.value));
     placeForm.reset();
-   toggleSubmitButton(placeSubmitButton, [placeNameInput, placePicInput], 'popup__submit_disabled');
-    closePopup();
+
+    closePopup(popupAddPlace);
 }
 
 popups.forEach((item) => {

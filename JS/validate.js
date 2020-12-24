@@ -1,7 +1,6 @@
 function hasInvalidInput(inputList) {
     return inputList.some((inputItem) => {
         return !inputItem.validity.valid;
-        console.log(inputList);
     })
 }
 
@@ -9,7 +8,6 @@ function toggleSubmitButton(buttonItem, inputList, inactiveButtonClass) {
     if(hasInvalidInput(inputList)) {
         buttonItem.classList.add(inactiveButtonClass);
         buttonItem.disabled = true;
-
     }
     else {
         buttonItem.classList.remove(inactiveButtonClass);
