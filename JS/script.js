@@ -24,7 +24,8 @@ const picturePopup = document.querySelector('.popup_picture');
 
 function listenEscapeKey(evt) {
     if(evt.key === 'Escape'){
-        closePopup()}
+        const currentPopup = document.querySelector('.popup_opened');
+        closePopup(currentPopup)}
 }
 
 function openPopup(popup) {
@@ -32,16 +33,17 @@ function openPopup(popup) {
     popup.classList.add('popup_opened');
 }
 function closePopup(popup) {
-    const currentPopup = document.querySelector('.popup_opened');
+
     document.removeEventListener('keydown', listenEscapeKey);
-    currentPopup.classList.remove('popup_opened');
+    popup.classList.remove('popup_opened');
 }
 
 function validateProfileForm() {
     nameInput.value = profileName.textContent;
     roleInput.value = profileRole.textContent;
 
-    toggleSubmitButton(profileSubmitButton, [nameInput, roleInput], 'popup__submit_disabled');
+
+   toggleSubmitButton(profileSubmitButton, [nameInput, roleInput], 'popup__submit_disabled');
 
     errorElements = Array.from(profileForm.querySelectorAll('.popup__error'));
     errorElements.forEach((errorItem) => {
@@ -105,7 +107,7 @@ function submitPlaceForm(evt) {
 
     addPlace(placeItem,createPlace(placeNameInput.value,placePicInput.value));
     placeForm.reset();
-    toggleSubmitButton(placeSubmitButton, [placeNameInput, placePicInput], 'popup__submit_disabled');
+   toggleSubmitButton(placeSubmitButton, [placeNameInput, placePicInput], 'popup__submit_disabled');
     closePopup();
 }
 
